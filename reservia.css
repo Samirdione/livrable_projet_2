@@ -4,3 +4,35 @@
 #navigation li {
     display: inline;
   }
+  header{
+      border:1rem dashed red;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .filtreelement{
+    border:.5rem dashed blue;
+    
+}
+.filtreelement:hover{
+    border:.5rem dashed red;
+    
+}
+.filtres{
+    border: .2rem solid pink;
+    display: flex;
+    align-items: center;
+    
+}
+.filtre_secondChild{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+.aubergecannebiere{
+    border: 1px solid red;
+    width: 300px;
+    height: auto;
+}
+.phototest{
+}
